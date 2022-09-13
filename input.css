@@ -1,0 +1,1709 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans';
+    text-decoration: none;
+    list-style: none;
+}
+
+html::-webkit-scrollbar{
+    width: 0.5rem;
+    background: #474040;
+}
+html::-webkit-scrollbar-thumb{
+    border-radius: 2rem;
+    background: #1a1d22;
+}
+/* HERO SECTION */
+
+#header{
+    width: 100%;
+    height: 1407px;
+    background-color: #029d57;
+   
+    
+}
+
+.container{
+    padding: 10px 10%;
+}
+nav{
+    position: fixed;
+    /* gap: 200px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px 10%;
+}
+nav.shadow{
+    background: #029D57;
+    box-shadow: 2px 2px 4px rgb(15 54 55 / 10%);
+    transition: 0.5s;
+    z-index: 4;
+    top: 0;
+    /* width: 100%; */
+}
+.logo{
+    width: 85px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    position: relative;
+}
+nav ul li a{
+    
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #fff;
+}
+nav ul li a::after{
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff0047;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+nav .bx{
+    display: none;
+}
+
+.middle .black-matte2 .black-mate-1{
+    position: absolute;
+    width: 800px;
+    height: 350.18px;
+    left: 309px;
+    top: 1056px;
+    overflow-x: hidden;
+    z-index: 2;
+    
+}
+
+
+
+.middle{
+    margin: 0 auto;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+/* HERO SECTION */
+
+.middle .direct h2{
+    margin: 200px 0 0 0;
+    width: 1200px;
+    height: 369px;
+    font-weight: 700;
+    line-height: 123px;
+    text-align: center;
+    font-size: 130px;
+    color:  #fff;
+    letter-spacing: -0.06rem;
+}
+.middle .direct p{
+    width: 588px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    opacity: 0.6;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* VECTOR */
+.middle .vector-1{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    width: 588px;
+    margin: 100px auto;
+    flex-wrap: wrap;
+}
+.vector{
+    height: 51.25px;
+    width: 200px;
+    padding: 5px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    
+    /* margin: 0px  auto; */
+    /* text-align: center; */
+
+    background: #000000;
+}
+.vector .get{
+    text-align: center;
+    color: #fff;
+    font-size: 10px;
+    margin-left: -40px;
+}
+.vector .bx-gradient{
+    font-size: 40px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#24BBB6 ), to(#DBE692 ));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    /* background-clip: inherit; */
+   
+}
+.vector .bx{
+    font-size: 40px;
+}
+.vector h2{
+    text-align: center;
+    color: #fff;
+    font-size: 10px;
+    margin-top: -40px;
+}
+.vector p{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 0px;
+}
+/* VECTOR */
+
+/* NOISE */
+.noise{
+    width: 100%;
+    height: 420px;
+    background-image: url(./img/scratch.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+        
+}
+.noise h3{
+    width: 692px;
+    padding: 83px 0 0 143px;
+    font-weight: 500;
+    font-size: 72px;
+    letter-spacing: -0.03em;
+    line-height: 73px;
+    color: #007640;
+    text-align: start;
+    
+}
+.noise p{
+    width: 783px;
+    padding: 20px 0 0 143px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #000;
+    opacity: 0.6;
+}
+
+/* NOISE */
+
+/* FANS */
+.fans{
+    width: 100%;
+    height: 560px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+ button{
+    width: 100px;
+    height: 32px;
+    margin: 134px 0 0 129px;
+    background: #ffbb62;
+    border-radius: 50px;
+    border: none;
+}
+ button span{
+    width: 34px;
+    font-weight: 500;
+    line-height: 19px;
+    font-size: 16px;
+}
+.fans h3{
+    width: 581px;
+    padding: 106px 0 0 129px;
+    font-weight: 500;
+    font-size: 68px;
+    line-height: 69px;
+    letter-spacing: -0.03rem;
+    color: #121212;
+}
+.fans p{
+    width: 569px;
+    padding: 55px 0 0px 129px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #121212;
+    opacity: 0.6;
+}
+.fans .design img{
+    position: absolute;
+    left: 912.89px;
+    top: 2104.08px;
+}
+.fans .design .IMG-1{
+    position: absolute;
+    width: 350px;
+    height: 308.12px;
+    
+   
+}
+.fans .design .IMG-2{
+    
+    /* position: absolute; */
+    width: 350.21px;
+    height: 308.12px;
+    /* left: 912.51px;
+    top: 2104.08px; */
+    transform: rotate(7.15deg);
+}
+.fans .design .IMG-3{
+    /* position: absolute; */
+    width: 350.21px;
+    height: 308.12px;
+    /* left: 912.51px;
+    top: 2104.08px; */
+    transform: rotate(3.39deg);
+}
+.fans .design .IMG-4{
+    /* position: absolute; */
+    width: 350.21px;
+    height: 308.12px;
+    /* left: 912.51px;
+    top: 2104.08px; */
+    transform: rotate(-3.01deg);
+}
+.fans .design .IMG-5{
+    /* position: absolute; */
+    width: 350.22px;
+    height: 308.12px;
+    /* left: 912.51px;
+    top: 2104.08px; */
+    background:#FFBB62;
+}
+/* FANS */
+
+
+/* NOISE2*/
+
+.noise2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 560px;
+    margin-top: 70px;
+    background-image: url(./img/scratch.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.noise2 .left{
+    width: 720px;
+    height: 560px;
+    background: #029D57;
+}
+    /* ELLIPSE*/
+
+.noise2 .ellipse{
+    width: 54px;
+    height: 54px;
+    margin: -40px 0 0 529px;
+    border: 2.5px solid #FFBB62;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.noise2 .ellipse .bx{
+    color: #FFFFFF;
+    font-size: 30px;
+    padding-top: 12px;
+}
+    /* ELLIPSE*/
+
+    /* LEFT*/
+
+.noise2 .left h3{
+    width: 581px;
+    padding: 50px 0 0 120px;
+    font-weight: 500;
+    font-size: 68px;
+    line-height: 68px;
+    color: #FFFFFF;
+}
+.noise2 .left p{
+    width: 591px;
+    padding: 39px 0 0 120px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    opacity: 0.6;
+    color: #FFFFFF;
+}
+    /* LEFT*/
+
+    /* RIGHT */
+
+.noise2 .right{
+    width: calc(100% - 720px);
+    height: 560px;
+}
+    /* RIGHT */
+
+
+    /* RECTANGLE */
+
+.noise2 .right .rectangle{
+    width: 513px;
+    height: 89px;
+    margin: 0 0 0 50px;
+    background: #FFFFFD;
+    padding: 20px ;
+}
+.rectangle a .bx{
+    font-size: 50px;
+    color: #000;
+}
+.noise2 .right .rectangle .ellipse-1{
+    width: 44px;
+    height: 44px;
+    margin: -50px 0 0 70px;
+    border: none;
+    border-radius: 50%;
+    text-align: center;
+    background-image: url(./img/backg.jfif);
+    background-position: center;
+    background-size: cover;
+    
+}
+.right .rectangle h3{
+    width: 143px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #000;
+    margin: -35px 0 0 160px;
+}
+
+    /* RECTANGLE */
+
+    /* RECTANGLE-34 */
+
+.noise2 .right .rectangle .rectangle-34{
+    width: 379px;
+    height: 114px;
+    margin: 70px 0 0 120px;
+    background: #FFFFFF;
+    border-radius: 20px 20px 0 20px ;
+}
+.rectangle-34 p{
+    width: 349px;
+    text-align: start;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    padding: 10px 10px 0 20px;
+
+}
+.right .rectangle-34 a span{
+    width: 44px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #000;
+    margin: 0px 0 0 290px;
+}
+    /* RECTANGLE-34 */
+
+
+    /* RECTANGLE-35 */
+
+.right .rectangle-35{
+    width: 212px;
+    height: 78px;
+    background: #FFFFFF;
+    border-radius: 15px 15px 15px 0;
+    margin: 36px 0 0 0px;
+    padding: 20px;
+}
+.rectangle-35 p{
+    width: 182px;
+    text-align: start;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+}
+
+.right .rectangle-35 a span{
+    width: 44px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #000;    
+}
+    /* RECTANGLE-35 */
+
+
+    /* RECTANGLE-36 */
+.right .rectangle-36{
+    width: 305px;
+    height: 105px;
+    background: #FFFFFF;
+    border-radius: 15px 15px 15px 0;
+    margin: 20px 0 0 0px;
+    padding: 20px;
+}
+.rectangle-36 p{
+    width: 275px;
+    text-align: start;
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+.right .rectangle-36 a span{
+    width: 44px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #000;    
+}
+    /* RECTANGLE-36 */
+
+    /* RECTANGLE-37 */
+    .right .rectangle .rectangle-37{
+        width: 513px;
+        height: 99px;
+        background: #FFFFFF;
+        margin: 10px 0px 50px 0px;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .rectangle .rectangle-37 .insider{
+        width: 441px;
+        height: 54px;
+        background: #f3f3f3;
+        border-radius: 10px;
+        padding: 8px 10px 10px 30px;
+        display: grid;
+        
+        
+    }
+    
+    .rectangle .rectangle-37 h3{
+        width: 233px;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 45px;
+        color: #121212;
+    }
+    .rectangle .rectangle-37 form{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 0 0 10px;
+        border-radius: 10px;
+        margin: 0rem 8rem 0 0;
+        background: transparent;
+    }
+    .rectangle .rectangle-37 form .email-box{
+        width: 250px;
+    }
+    .rectangle .rectangle-37 form input{
+        border: none;
+        outline: none;
+        background: none;
+        color: #2E2E2E;
+        font-size: 1rem;
+    }
+    
+    .rectangle .rectangle-37 .insider span{
+        width: 275px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+    }
+    .rectangle .rectangle-37 .insider .bx{
+        font-size: 30px;
+        margin-left: 71px;
+        color: #BBBBBB;
+    }
+    .rectangle .rectangle-37 .insider  .bx-mic{
+        font-size: 30px;
+        margin-left: 0px;
+        color: #BBBBBB;
+        
+    }
+    .rectangle .rectangle-37 .outsider .bx{
+        font-size: 30px;
+        margin: 12px 0 0 0px;
+    }
+
+
+    /* RECTANGLE-37 */
+
+
+/* NOISE2*/
+
+/* EARN */
+.earn{
+    width: 100%;
+    height: 662px;
+    background: #FFFFFF;
+    padding: 50px;
+}
+.earn .left-1{
+    width: 415px;
+}
+.earn button{
+    width: 100px;
+    height: 32px;
+    margin: 0px 0px 0px 0px;
+    background: #ffbb62;
+    border-radius: 50px;
+    border: none;
+}
+.earn button span{
+    width: 34px;
+    font-weight: 500;
+    line-height: 19px;
+    font-size: 16px;
+}
+.earn h3{
+    width: 481px;
+    font-size: 68px;
+    font-weight: 500;
+    line-height: 69px;
+    color: #000;
+    margin: 50px 0 20px 0px;
+    
+}
+.earn p{
+    width: 401px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #000;
+    opacity: 0.6;
+    text-align: start;
+}
+.earn .content{
+    margin: -500px 0 0 800px;
+}
+/* EARN */
+
+/* NOISE5 */
+.noise5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 560px;
+    background: #000;
+}
+.noise5 .left{
+    width: 720px;
+    height: 560px;
+    background: rgb(36, 34, 34);
+    
+   
+}
+.noise5 .left .frame{
+    width: 513px;
+    height: 430px;
+    border: 15px solid #2E2E2E;
+    border-top: none;
+    filter: drop-shadow(0px 10px 20px rgba(4, 4, 4, 0.2));
+    border-radius: 0px 0px 20px 20px;
+    margin: 0px 0 0 50px;
+    padding: 1px;
+}
+.short-frame{
+    width: 485px;
+    height: 214px;
+    background: #363636;
+    border-radius: 20px;
+    margin: 210px 0 0 -2px;
+    z-index: 2;
+    padding: 30px;
+}
+.short-frame .ellipse-2{
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+    background-image: url(./img/backg.jfif);
+    background-position: center;
+    background-size: cover;
+
+}
+.short-frame h3{
+    width: 367px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #fff, 90%;
+    margin: -60px 0px 0px 80px;
+}
+.short-frame a{
+    opacity: 100;
+    font-size: 23px;
+    color: #FFFFFF;
+}
+.short-frame .red-green{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.short-frame .decline{
+    width: 206px;
+    height: 54px;
+    background: #E34D4D;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.short-frame .decline h2{
+    font-size: 20px;
+    padding: 13px;
+    text-align: center;
+}
+.short-frame .accept{
+    width: 206px;
+    height: 54px;
+    background: #029C56;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.short-frame .accept h2{
+    font-size: 20px;
+    padding: 13px;
+    text-align: center;
+}
+.noise5{
+    margin-top: -50px;
+}
+.noise5 .right{
+    width: calc(100%-720px);
+    height: 560px;
+    background: #000;
+    padding: 0 50px;
+}
+.noise5 .right .ellipse{
+    width: 54px;
+    height: 54px;
+    margin: -40px 90px 0 509px;
+    border: 2.5px solid #FFBB62;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.noise5 .right button{
+    width: 100px;
+    height: 32px;
+    margin: 134px 0 0 0px;
+    background: #ffbb62;
+    border-radius: 50px;
+    border: none;
+}
+.noise5 .right button span{
+    width: 34px;
+    font-weight: 500;
+    line-height: 19px;
+    font-size: 16px;
+}
+.noise5 .ellipse .bx{
+    color: #FFFFFF;
+    font-size: 30px;
+    padding-top: 12px;
+}
+.noise5 .right h3{
+    width: 481px;
+    padding: 50px 0 0 0px;
+    font-weight: 500;
+    font-size: 68px;
+    line-height: 68px;
+    color: #FFFFFF;
+}
+.noise5 .right p{
+    width: 451px;
+    padding: 39px 0 0 0px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    opacity: 0.6;
+    color: #FFFFFF;
+}
+/* NOISE3 */
+
+/* ASSURANCE */
+.assurance{
+    width: 100%;
+    height: 1500px;
+    background: #FFFFFF;
+   
+}
+
+.assurance h1{
+    width: 471px;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 69px;
+    color: #007640;
+    padding: 120px 0 100px 160px;
+}
+.assurance .ellipse-circle{
+    width: 15px;
+    height: 15px;
+    margin: 60px 0 0 200px;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    background: #ababab;
+}
+.assurance .line-1{
+    width: 177px;
+    height: 0px;
+    margin: 86px 0 87px 120px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    transform: rotate(90deg);
+}
+.assurance .ease{
+    margin: -410px 0 0 300px;
+}
+.assurance h5{
+    font-size: 36px;
+}
+.assurance p{
+    width: 310px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #121212;
+    opacity: 0.6;
+    padding-top: 20px;
+}
+.assurance .ease-1{
+    margin: 70px 0 0 300px;
+}
+.assurance .ease-2{
+    margin: 70px 0 0 300px;
+}
+.assurance .ease-2 p{
+    width: 379px;
+}
+.assurance .profile img{
+    width: 419px;
+    height: 700.52px;
+    margin: -700px 0 0 800px;
+}
+.assurance .green{
+    margin: 0 auto;
+    width: 1200px;
+    height: 423px;
+    border-radius: 50px;
+    background: #029C56;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.assurance .green .hand .handy{
+    width: 249px;
+    height: 353px;
+    margin: 70px 0 0 153px;
+}
+
+.assurance .green .ahead{
+    padding: 0 100px 0 0px;
+}
+.assurance .green .ahead h3{
+    width: 490px;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 74px;
+    color: #fff;
+    margin:50px 0 0 0px;
+}
+.assurance .green .ahead p{
+    width: 490px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #fff;
+    opacity: 0.6;
+    padding-top: 30px;
+}
+.assurance .green .vect{
+    display: flex;
+    justify-content: space-between;
+    padding:30px 30px 0 0;
+}
+.assurance .green .vect .vector h2{
+    text-align: center;
+    color: #fff;
+    font-size: 10px;
+    /* margin-top: -40px; */
+}
+.assurance .green .vect .vector span{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 40px;
+}
+.assurance .green .vect .vector .bx{
+    width: 40px;
+    color: #fff;
+   
+    
+}
+/* ASSURANCE */
+
+hr{
+    margin: 0 100px 0 100px;
+    color: #ababab;
+    opacity: 0.3;
+}
+
+
+/* NEWSLETTER */
+.newsletter{
+    
+    display: grid;
+    padding: 100px 50px 0 430px ;
+}
+.newsletter h3{
+    width: 833px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    color: #121212;
+}
+.newsletter form{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 0 10px;
+    border-radius: 10px;
+    margin: 2rem 8rem 0 0;
+    background: transparent;
+    border: 1px solid #2E2E2E;
+}
+.newsletter form .email-box{
+    width: 550px;
+}
+.newsletter form input{
+    border: none;
+    outline: none;
+    background: none;
+    color: #2E2E2E;
+    font-size: 1rem;
+}
+.newsletter form .btn{
+    background: #000;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 15px;
+    border-radius:0 10px 10px  0;
+}
+.newsletter form .btn:hover{
+    background: #007640;
+}
+
+/* NEWSLETTER */
+
+/* FOOTER */
+
+footer{
+    width: 100%;
+    height: 308px;
+    background: #fff;
+    padding: 100px 0 0 190px;
+    display: flex;
+    gap: 9rem;
+}
+
+.footer-box .social .bx{
+    font-size: 30px;
+}
+.footer-box .social a:hover .bx{
+    transform: translateY(-5px);
+    transition: 0.5s;
+    color: #007640;
+}
+footer .footer-box .social a{
+    color: #000;
+    margin-right: 15px;
+}
+.footer-box{
+    display: flex;
+    flex-direction: column;
+}
+.footer-box h3{
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.footer-box .logo1{
+    width: 88px;
+    margin-bottom: 15px;
+}
+.footer-box p,
+.footer-box a{
+    color: #ababab;
+    margin-bottom: 19px;
+}
+.footer-box a:hover{
+    color: #029C56;
+    transform: translateX(-5px);
+    transition: 0.5s;
+}
+
+/* FOOTER */
+
+.copyright{
+    padding: 25px;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:768px){
+    #header{
+        width: 185%;
+    }
+    .noise{
+        width: 185%;
+    }
+    .noise p{
+        font-size: 30px;
+       
+    }
+    .fans p{
+        font-size: 27px;
+        width: 730px;
+    }
+    .noise2 .left p{
+        font-size: 25px;
+    }
+    .earn .content p{
+        font-size: 26px;
+    }
+    .assurance .ease p{
+        font-size: 25px;
+    }
+    .assurance .ease-1 p{
+        font-size: 25px;
+    }
+    .assurance .ease-2 p{
+        font-size: 25px;
+    }
+    .copyright{
+        font-size: 25px;
+    }
+    
+}
+
+
+
+
+
+
+@media(max-width: 1080px){
+    .container{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+
+
+
+@media only screen and (max-width:1023px){
+    .noise5 .left{
+        padding: 0 50px;
+    }
+    .noise5 .left .frame{
+        margin: 0px 0 0 0px;
+    }
+    .noise5 .right{
+        padding: 0  40px;
+    }
+    .assurance .green{
+      
+        margin-left: 140px;
+    }
+    .noise{
+        width: 135%;
+    }
+    #header{
+        width: 135%;
+    }
+    .noise5 .left{
+        padding: 0 63px;
+    }
+    .noise5 .right{
+       
+        padding: 0  63px;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 600px){
+    /* HERO SECTION */
+    .container{
+        padding: 10px 2%;
+    }
+    #header{
+        width: fit-content;
+        height: 900px;
+    }
+    nav .bx{
+        display: inline-block;
+        font-size: 25px;
+        border: 1px solid #fff;
+        color: black;
+    }
+    nav ul {
+        background: #029D57;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 60vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+    nav ul li{
+        display: inline-block;
+        margin: 25px;
+    }
+    nav ul .bx{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+    .middle .direct h2{
+        margin: 100px 0 0 0;
+        width: 450px;
+        font-weight: 700;
+        line-height: 90px;
+        text-align: center;
+        font-size: 45px;
+        color:  #fff;
+        letter-spacing: -0.06rem;
+    }
+    .middle .direct p{
+        width: 388px;
+        font-size: 15px;
+        margin-top: -150px;
+        margin-left: 30px;
+    }
+    
+    .middle .black-matte2 .black-mate-1{
+        width: 400px;
+        height: 250.18px;
+        left: 59px;
+        top: 650px;
+    }
+    .vector{
+        height: 51.25px;
+        width: 170px;
+        padding: 5px;
+        border-radius: 10px;
+        flex-wrap: wrap;
+        background: #000000;
+    }
+    .vector h2{
+        text-align: center;
+        color: #fff;
+        font-size: 10px;
+        margin-top: -40px;
+        
+    }
+     .vector .get{
+        text-align: center;
+        color: #fff;
+        font-size: 10px;
+        margin-left: -20px;
+    }
+    .vector p{
+        text-align: center;
+        color: #fff;
+        font-size: 17px;
+        font-weight: 900;
+        margin-left: 12px;
+    }
+    .vector .bx-gradient{
+        font-size: 40px;
+    }
+    /* HERO SECTION */
+
+    /* NOISE */
+
+    .noise{
+        width: fit-content;
+        height: 560px;
+        padding: 0px 70px 30px 0px;
+    }
+    .noise h3{
+        width: 392px;
+        font-size: 32px;
+        line-height: 53px;
+        
+    }
+    .noise p{
+        width: 483px;
+    }
+
+    /* NOISE */
+
+
+    /* FANS */
+    .fans{
+        width: 600px;
+        margin-bottom: 530px;
+    }
+    .fans .design img{
+        position: absolute;
+        left: 132.89px;
+        top: 2204.08px;
+    }
+    .fans h3{
+        width: 481px;
+        font-size: 48px;
+    }
+    .fans p{
+        width: 499px;
+    }
+    .fans button{
+        margin-left: 120px;
+    }
+    /* FANS */
+
+    /* NOISE2 */
+
+    .noise2{
+        display: block;
+        
+        align-items: center;
+        width: 100%;
+        height: 560px;
+        margin-top: 70px;
+        margin-bottom: 600px;
+        
+    }
+    .noise2 .left{
+        width: 720px;
+        height: 560px;
+        background: #029D57;
+    }
+    .noise2 .left{
+        width: 600px;
+    }
+    .noise2 .left h3{
+        padding: 50px 0 0 50px;
+    }
+    .noise2 .left p{
+        width: 491px;
+        padding: 39px 0 0 50px;
+    }
+    .noise2 .ellipse{
+        margin: -40px 0 0 429px;
+    }
+    button{
+        margin: 134px 0 0 59px;
+    }
+    .noise2 .right .rectangle{
+        margin: 0 0 0 50px;
+    }
+    .right .rectangle .rectangle-37{
+        margin: 10px 0px 50px -30px;
+    }
+    /* NOISE2 */
+
+    /* EARN */
+        .earn{
+            width: 600px;
+            display: block;
+            margin-bottom: 300px;
+        }
+        .earn .left-1{
+            width: 305px;
+            margin-left: 50px;
+        }
+        .earn .content{
+            margin: 50px 0 0 50px;
+        }
+    /* EARN */
+
+
+    /* NOISE5 */
+    .noise5{
+        display: block;
+        width: 500px;
+        margin-bottom: 700px;
+    }
+    .noise5 .left{
+        width: 600px;
+    }
+    .noise5 .left .frame{
+        margin: 0px 0 0 20px;
+    }
+    .noise5 .right{
+        width: 600px;
+        padding: 0  30px;
+    }
+    .noise5 .right h3{
+        font-size: 50px;
+    }
+    .noise5 .right .ellipse{
+        margin-left: 409px;
+    }
+    /* NOISE5 */
+
+
+    /* ASSURANCE */
+    .assurance{
+        width: 500px;
+        margin-bottom: 700px;
+        display: block;
+    }
+    .assurance h1{
+        padding: 0px 0px 0px 50px;
+    }
+    .assurance .ellipse-circle{
+        width: 15px;
+        height: 15px;
+        margin: 60px 0 0 50px;
+        border: 1px solid #000000;
+        border-radius: 50%;
+        background: #ababab;
+    }
+    .assurance .line-1{
+        margin-left: -30px;
+    }
+    .assurance .ease{
+        margin: -410px 0 0 100px;
+    }
+    .assurance .ease-1{
+        margin: 70px 0 0 100px;
+    }
+    .assurance .ease-2{
+        margin: 70px 0 0 100px;
+    }
+    .assurance .profile img{
+        margin: 100px 0 0 70px;
+    }
+    .assurance .green{
+        width: 500px;
+        height: 850px;
+        display: block;
+        margin-left: 20px;
+    }
+    .assurance .green .hand .handy{
+        width: 249px;
+        height: 353px;
+        margin: 70px 0 0 153px;
+    }
+    .assurance .green .ahead{
+        padding:  50px;
+    }
+    .assurance .green .vect .vector .get{
+        text-align: center;
+        color: #fff;
+        font-size: 10px;
+        margin-left: -30px;
+    }
+    .assurance .green .vect .vector h2{
+        margin-left: 15px;
+    }
+    /* ASSURANCE */
+
+    hr{
+        margin-top: 950px;
+    }
+
+    /* NEWSLETTER */
+    .newsletter{
+    
+        display: grid;
+        padding: 0px 0px 0 30px ;
+        margin-top: 50px;
+        width: 600px;
+    }
+    .newsletter h3{
+        width: 433px;
+        font-size: 25px;
+    }
+    .newsletter form{
+        width: 400px;
+    }
+    .newsletter form .email-box{
+        width: 550px;
+    }
+    /* NEWSLETTER */
+
+
+    /* FOOTER */
+    footer{
+        width: 500px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+        padding: 100px 0 0 50px;
+        gap: 9rem;
+    }
+    .copyright{
+       margin-top: 970px;
+    }
+    .newsletter form .email-box{
+            width: 180px;
+    }
+    .insider form .email-box{
+            width: 180px;
+    }
+    /* FOOTER */
+}
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 479px){
+   
+    .container{
+        padding: 10px 2%;
+    }
+    #header{
+        width: fit-content;
+        height: 900px;
+    }
+    nav .bx{
+        display: inline-block;
+        font-size: 25px;
+        border: 1px solid #fff;
+        color: black;
+    }
+    nav ul {
+        background: #029D57;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 60vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+    nav ul li{
+        display: inline-block;
+        margin: 25px;
+    }
+    nav ul .bx{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+    .middle .direct h2{
+        margin: 100px 0 0 0;
+        width: 450px;
+        font-weight: 700;
+        line-height: 90px;
+        text-align: center;
+        font-size: 45px;
+        color:  #fff;
+        letter-spacing: -0.06rem;
+    }
+    .middle .direct p{
+        width: 388px;
+        font-size: 15px;
+        margin-top: -150px;
+        margin-left: 30px;
+    }
+    
+    .middle .black-matte2 .black-mate-1{
+        width: 400px;
+        height: 250.18px;
+        left: 59px;
+        top: 650px;
+    }
+    .vector{
+        height: 51.25px;
+        width: 170px;
+        padding: 5px;
+        border-radius: 10px;
+        flex-wrap: wrap;
+        background: #000000;
+    }
+    .vector h2{
+        text-align: center;
+        color: #fff;
+        font-size: 10px;
+        margin-top: -40px;
+        
+    }
+     .vector .get{
+        text-align: center;
+        color: #fff;
+        font-size: 10px;
+        margin-left: -20px;
+    }
+    .vector p{
+        text-align: center;
+        color: #fff;
+        font-size: 17px;
+        font-weight: 900;
+        margin-left: 12px;
+    }
+    .vector .bx-gradient{
+        font-size: 40px;
+    }
+    
+
+    .noise{
+        width: fit-content;
+        height: 560px;
+        padding: 0px 70px 30px 0px;
+    }
+    .noise h3{
+        width: 392px;
+        font-size: 32px;
+        line-height: 53px;
+        
+    }
+    .noise p{
+        width: 483px;
+    }
+
+    
+    .fans{
+        width: 600px;
+        margin-bottom: 530px;
+    }
+    .fans .design img{
+        position: absolute;
+        left: 132.89px;
+        top: 2204.08px;
+    }
+    .fans h3{
+        width: 481px;
+        font-size: 48px;
+    }
+    .fans p{
+        width: 499px;
+    }
+    .fans button{
+        margin-left: 120px;
+    }
+    
+
+    .noise2{
+        display: block;
+        
+        align-items: center;
+        width: 100%;
+        height: 560px;
+        margin-top: 70px;
+        margin-bottom: 600px;
+        
+    }
+    .noise2 .left{
+        width: 720px;
+        height: 560px;
+        background: #029D57;
+    }
+    .noise2 .left{
+        width: 600px;
+    }
+    .noise2 .left h3{
+        padding: 50px 0 0 50px;
+    }
+    .noise2 .left p{
+        width: 491px;
+        padding: 39px 0 0 50px;
+    }
+    .noise2 .ellipse{
+        margin: -40px 0 0 429px;
+    }
+    button{
+        margin: 134px 0 0 59px;
+    }
+    .noise2 .right .rectangle{
+        margin: 0 0 0 50px;
+    }
+    .right .rectangle .rectangle-37{
+        margin: 10px 0px 50px -30px;
+    }
+   
+        .earn{
+            width: 600px;
+            display: block;
+            margin-bottom: 300px;
+        }
+        .earn .left-1{
+            width: 305px;
+            margin-left: 50px;
+        }
+        .earn .content{
+            margin: 50px 0 0 50px;
+        }
+    
+    .noise5{
+        display: block;
+        width: 500px;
+        margin-bottom: 700px;
+    }
+    .noise5 .left{
+        width: 600px;
+    }
+    .noise5 .left .frame{
+        margin: 0px 0 0 20px;
+    }
+    .noise5 .right{
+        width: 600px;
+        padding: 0  30px;
+    }
+    .noise5 .right .ellipse{
+        margin-left: 409px;
+    }
+   
+    .assurance{
+        width: 500px;
+        margin-bottom: 700px;
+        display: block;
+    }
+    .assurance h1{
+        padding: 0px 0px 0px 50px;
+    }
+    .assurance .ellipse-circle{
+        width: 15px;
+        height: 15px;
+        margin: 60px 0 0 50px;
+        border: 1px solid #000000;
+        border-radius: 50%;
+        background: #ababab;
+    }
+    .assurance .line-1{
+        margin-left: -30px;
+    }
+    .assurance .ease{
+        margin: -410px 0 0 100px;
+    }
+    .assurance .ease-1{
+        margin: 70px 0 0 100px;
+    }
+    .assurance .ease-2{
+        margin: 70px 0 0 100px;
+    }
+    .assurance .profile img{
+        margin: 100px 0 0 70px;
+    }
+    .assurance .green{
+        width: 500px;
+        height: 850px;
+        display: block;
+        margin-left: 20px;
+    }
+    .assurance .green .hand .handy{
+        width: 249px;
+        height: 353px;
+        margin: 70px 0 0 153px;
+    }
+    
+    .assurance .green .ahead{
+        padding:  50px;
+    }
+    .assurance .green .vect .vector .get{
+        text-align: center;
+        color: #fff;
+        font-size: 10px;
+        margin-left: -30px;
+    }
+    .assurance .green .vect .vector h2{
+        margin-left: 15px;
+    }
+   
+
+    hr{
+        margin-top: 950px;
+    }
+
+   
+    .newsletter{
+    
+        display: grid;
+        padding: 0px 0px 0 30px ;
+        margin-top: 50px;
+        width: 600px;
+    }
+    .newsletter h3{
+        width: 433px;
+        font-size: 25px;
+    }
+    .newsletter form{
+        width: 400px;
+    }
+    .newsletter form .email-box{
+        width: 550px;
+    }
+    
+    footer{
+        width: 500px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+        padding: 100px 0 0 50px;
+        gap: 9rem;
+    }
+    .copyright{
+       margin-top: 970px;
+    }
+    .newsletter form .email-box{
+            width: 180px;
+    }
+    .insider form .email-box{
+            width: 180px;
+    }
+  
+}
+
+@media(max-width:300px){
+    .newsletter form .email-box{
+        width: 140px;
+        font-size: 00.9rem;
+    }
+    .btn{
+        padding: 14px 20px;
+    }
+}
